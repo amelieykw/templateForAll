@@ -1,0 +1,12 @@
+{
+  "name": "boc-px",
+  "version": "1.0.0",
+  "description": "mastercard-web核销平台",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
