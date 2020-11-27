@@ -6,7 +6,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true,
+    node: true
   },
   extends: [
     'airbnb',
@@ -20,22 +20,25 @@ module.exports = {
     'prettier/@typescript-eslint',
     'prettier/react',
     'prettier/unicorn',
+    'prettier/babel',
+    'prettier/flowtype',
+    'prettier/standard'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 12,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: ['react', '@typescript-eslint'],
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.tsx', '.ts', '.js', '.json'],
-      },
-    },
+        extensions: ['.tsx', '.ts', '.js', '.json']
+      }
+    }
   },
   rules: {
     'import/extensions': [
@@ -45,8 +48,8 @@ module.exports = {
         ts: 'never',
         tsx: 'never',
         json: 'never',
-        js: 'never',
-      },
-    ],
-  },
+        js: 'never'
+      }
+    ]
+  }
 }
